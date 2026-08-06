@@ -63,33 +63,46 @@ function Contact() {
 
           {/* Right Side */}
 
-          <form className="bg-white p-8 rounded-3xl shadow-lg">
+          <form
+  action="https://formsubmit.co/ambreeshsingh2003@gmail.com"
+  method="POST"
+  className="bg-white p-8 rounded-3xl shadow-lg"
+>
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_subject" value="New Portfolio Contact" />
 
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full border rounded-xl p-4 mb-5 outline-none focus:ring-2 focus:ring-blue-500"
-            />
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+    className="w-full border rounded-xl p-4 mb-5 outline-none focus:ring-2 focus:ring-blue-500"
+  />
 
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full border rounded-xl p-4 mb-5 outline-none focus:ring-2 focus:ring-blue-500"
-            />
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+    className="w-full border rounded-xl p-4 mb-5 outline-none focus:ring-2 focus:ring-blue-500"
+  />
 
-            <textarea
-              rows="6"
-              placeholder="Your Message"
-              className="w-full border rounded-xl p-4 mb-5 outline-none focus:ring-2 focus:ring-blue-500"
-            />
+  <textarea
+    name="message"
+    rows="6"
+    placeholder="Your Message"
+    required
+    className="w-full border rounded-xl p-4 mb-5 outline-none focus:ring-2 focus:ring-blue-500"
+  />
 
-            <button
-              className="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition"
-            >
-              Send Message
-            </button>
-
-          </form>
+  <button
+    type="submit"
+    className="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition"
+  >
+    Send Message
+  </button>
+</form>
 
         </div>
 
