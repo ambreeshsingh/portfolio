@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import BackgroundBlobs from "./BackgroundBlobs";
-import profile from "../assets/images/profile.jpg"
+import profile from "../assets/images/profile.jpeg"
 import ProfileCard from "./ProfileCard.jsx";
 
 

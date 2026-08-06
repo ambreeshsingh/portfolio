@@ -8,7 +8,7 @@ import {
   SiMongodb,
 } from "react-icons/si";
 
-import profile from "../assets/images/profile.jpg";
+import profile from "../assets/images/profile.jpeg";
 
 function ProfileCard() {
   return (
