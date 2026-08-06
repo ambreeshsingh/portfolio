@@ -1,5 +1,6 @@
 import luxebags from "../assets/images/luxebags.png";
 import weather from "../assets/images/weather.png";
+import parallax from "../assets/images/parallax.png"
 
 
 export const projects = [
@@ -22,7 +23,7 @@ export const projects = [
   
       image: luxebags,
   
-      github: "#",
+      github: "https://github.com/ambreeshsingh/luxebags-frontened",
   
       live: "https://luxebags-frontened.vercel.app",
     },
@@ -43,7 +44,7 @@ export const projects = [
   
       image: weather,
   
-      github: "#",
+      github: "https://github.com/ambreeshsingh/Weather_App",
   
       live: "https://weather-app-plum-alpha-35.vercel.app",
     },
@@ -64,10 +65,10 @@ export const projects = [
         "JavaScript",
       ],
   
-      image: "https://placehold.co/600x400",
+      image: parallax ,
   
-      github: "#",
+      github: "https://github.com/ambreeshsingh/parallex_website_project",
   
-      live: "#",
+      live: "https://parallex-website-project-theta.vercel.app",
     },
   ];

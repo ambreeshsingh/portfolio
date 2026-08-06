@@ -50,7 +50,7 @@ function Hero() {
             {/* Title */}
 
             <h2 className="mt-6 text-2xl font-semibold text-slate-700 md:text-3xl">
-              Software Engineer | Full Stack Developer | Problem Solver
+              MERN Stack Developer | Problem Solver
             </h2>
 
             {/* Description */}
